@@ -5,15 +5,22 @@
     width: 100%;
 }
 
+.container{
+    border: 3px solid yellow;
+}
+
 .image {
-    width: 100%;
     height: 100vh;
     background-size: cover;
     background-image: url(/Images/main-bg.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 header {
+    border: 3px solid white;
+    padding-left: 441px;
+    /* padding-right: 435px; */
     color: white;
     background-color: rgb(0, 0, 0, 0.047);
     height: 100px;
@@ -21,36 +28,28 @@ header {
 
 .padd {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    /* padding-left: 444px; */
-    /* padding-right: 300px; */
+    text-align: center;
     height: 100%;
 }
 
 .logo{
     width: 500px;
-    /* border: 1px solid yellow; */
-    /* border: 1px solid white; */
-    /* padding-left: 500px; */
-    margin-left: 443.5px;
-    margin-right: 109px;
+    /* margin-left: 443.5px; */
 }
 
 ul {
+    margin-left: 107px;
     padding-top: 1.2rem;
-    margin-right: 5px;
     text-decoration: none;
     list-style: none;
     display: flex;
 }
 
 ul li {
-    /* margin: 0px 5px 0px 0px; */
-    /* margin: 0px 0px 0px 8px; */
-    /* padding-right: 20px; */
     width: 90px;
-    font-size: 14px;
+    font-size: 13.5px;
 }
 
 .first-list{
@@ -79,11 +78,8 @@ ul li {
 }
 
 .btns{
-    /* border: 1px solid yellow; */
     display: flex;
     padding-top: 0.2rem;
-    padding-left: 2px;
-    margin-right: 462px;
 }
 
 .unstyled-button-1,
@@ -121,9 +117,10 @@ ul li {
     border-color: rgb(134, 134, 134);
 }
 
-/* HOME PAGE */
+
+/* ================================================================================================================================= */
+/* Home Pageeeeeeeeeeeeeeeeeeeeeeeee */
 .content-1{
-    padding-left: 522px;
     padding-top: 247px;
 }
 .first-text {
@@ -139,16 +136,15 @@ ul li {
 
 .third-text {
     font-size: 20px;
-    line-height: 100px;
+    line-height: 35px;
     color: white;
     letter-spacing: 5px;
-}
+} 
+
 
 /* ================================================================================================================================= */
 /* Second Pageeeeeeeeeeeeeeeee */
 .section-2 {
-    padding-left: 483.5px;
-    padding-right: 382px;
     padding-top: 79px;
     width: 100%;
     height: 497px;
@@ -202,13 +198,12 @@ ul li {
 /* ================================================================================================================================= */
 /* Third Pageeeeeeeeeeeeee  */
 .section-3 {
-    padding-left: 483.5px;
-    padding-right: 700px;
     padding-top: 86px;
     height: 637px;
     background-size:contain;
     background-image: url(/Images/two-people.jpg);
     background-attachment:fixed;
+    background-repeat: no-repeat;
 }
 
 .sixth-text{
@@ -228,8 +223,6 @@ ul li {
 /* ================================================================================================================================= */
 /* Fourth Pageeeeeeeeeeeeee  */
 .section-4 {
-    padding-left: 483.5px;
-    padding-right: 870px;
     padding-top: 84px;
     width: 100%;
     /* height: 497px; */
@@ -266,8 +259,6 @@ ul li {
 /* ================================================================================================================================= */
 /* Fifth Pageeeeeeeeeeeeee  */
 .section-5 {
-    padding-left: 483.5px;
-    padding-right: 465px;
     padding-top: 84px;
     width: 100%;
     /* height: 497px; */
@@ -288,8 +279,7 @@ ul li {
 
 .section-gallery-2{
     padding-top: 17.5px;
-    padding-left: 464px;
-    padding-right: 463.5199px;
+    /* padding-left: 464px; */
     padding-bottom: 104px;
 }
 /* ================================================================================================================================= */
@@ -298,8 +288,6 @@ ul li {
 /* ================================================================================================================================= */
 /* Sixth Pageeeeeeeeeeeeee  */
 .section-6 {
-    padding-left: 483.5px;
-    padding-right: 465px;
     padding-top: 82px;
     width: 100%;
     height: 422px;
@@ -328,8 +316,6 @@ ul li {
 /* ================================================================================================================================= */
 /* Seventh Pageeeeeeeeeeeeeeee  */
 .section-7 {
-    padding-left: 483.5px;
-    padding-right: 366px;
     padding-top: 119px;
     width: 100%;
     height: 679px;
@@ -357,14 +343,13 @@ ul li {
     color: white;
     letter-spacing: 3.2px;
     line-height: 19px;
+    text-align:left;
 }
 /* ================================================================================================================================= */
 
 /* ================================================================================================================================= */
 /* Eighth Pageeeeeeeeeeeeeeeeeeeee  */
 .section-8 {
-    padding-left: 483.5px;
-    padding-right: 420px;
     padding-top: 88px;
     width: 100%;
     height: 764px;
@@ -443,8 +428,6 @@ input::placeholder, textarea::placeholder {
 /* ================================================================================================================================= */
 /* Nineth Pageeeeeeeeeeeeeeeeeeeeeeeeee */
 .section-9 {
-    padding-left: 483.5px;
-    padding-right: 420px;
     /* padding-top: 67px; */
     width: 100%;
     height: 195.33px;
@@ -466,3 +449,9 @@ input::placeholder, textarea::placeholder {
 .sec-9-img{
     width: 200px;
 }
+
+
+
+
+
+
