@@ -24,24 +24,41 @@
                     <img src="/Images/logo-with-bg-remove.png" alt="no-image" class="logo">
                     <!-- height="85" -->
                     <!-- class="py-2" -->
-                    <ul>
-                        <li class="first-list">SERVICES</li>
-                        <li class="second-list">ABOUT US</li>
-                        <li class="third-list">PROGRAMS</li>
-                        <li class="fourth-list">WORK</li>
-                        <li class="fifth-list">TEAM</li>
-                        <li class="sixth-list">CONTACT</li>
+                    <ul class="noSidebar">
+                        <li class="forLargeScreen first-list">SERVICES</li>
+                        <li class="forLargeScreen second-list">ABOUT US</li>
+                        <li class="forLargeScreen third-list">PROGRAMS</li>
+                        <li class="forLargeScreen fourth-list">WORK</li>
+                        <li class="forLargeScreen fifth-list">TEAM</li>
+                        <li class="forLargeScreen sixth-list">CONTACT</li>
+                    </ul>
+
+                    <ul class="sidebar">
+                        <span  class="icon-container" onclick="hideSidebar()">
+                            <a href="#">
+                                <i class="bi bi-x-lg"></i>
+                            </a>
+                        </span>
+                        <li>SERVICES</li>
+                        <li>ABOUT US</li>
+                        <li>PROGRAMS</li>
+                        <li>WORK</li>
+                        <li>TEAM</li>
+                        <li>CONTACT</li>
                     </ul>
                     <div class="btns">
-                        <button class="unstyled-button-1 me-2"><i class="bi bi-bell-fill"></i></button>
-                        <button class="circle-button-1 me-2"><img class="circle-button-2 mb-1" src="/Images/R.png" alt=""></button>
-                        <button class="unstyled-button-2"><i class="bi bi-chevron-down"></i></button>
+                        <button class="forLargeScreen unstyled-button-1 me-2"><i class="bi bi-bell-fill"></i></button>
+                        <button class="forLargeScreen circle-button-1 me-2"><img class="circle-button-2 mb-1" src="/Images/R.png" alt=""></button>
+                        <button class="forLargeScreen unstyled-button-2"><i class="bi bi-chevron-down"></i></button>
                     </div>
+                    <span class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#ffffff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                    </a></span>
                 </div>
             </div>
             
         </header>
 
+        
         <div class="container-lg">
             <div class="content-1">
                 <div class="first-text text-uppercase fw-bold">Making <br>Connections</div>
@@ -66,28 +83,28 @@
                 <div class="fourth-text text-uppercase fw-bold">Our <br> Services</div>
 
                 <div class="row section-2-1">
-                    <div class="fifth-text col-3 text-uppercase ">
+                    <div class="fifth-text col-lg-3 col-sm-6 text-uppercase ">
                         <div class="custom-line-section-2"></div>
                         <div class="section-2-2">
-                            Social Media<br> Marketing  
+                            Social Media Marketing  
                         </div>
                     </div>
-                    <div class="fifth-text col-3 text-uppercase ">
+                    <div class="fifth-text col-lg-3 col-sm-6 text-uppercase ">
                         <div class="custom-line-section-2"></div>
                         <div class="section-2-2">
-                            Content <br> Marketing
+                            Content Marketing
                         </div>
                     </div>
-                    <div class="fifth-text col-3 text-uppercase ">
+                    <div class="fifth-text col-lg-3 col-sm-6 text-uppercase ">
                         <div class="custom-line-section-2"></div>
                         <div class="section-2-2">
-                            Media <br> Production
+                            Media Production
                         </div>
                     </div>
-                    <div class="fifth-text col-3 text-uppercase ">
+                    <div class="fifth-text col-lg-3 col-sm-6 text-uppercase ">
                         <div class="custom-line-section-2"></div>
                         <div class="section-2-2">
-                            Paid Promotion <br> Campaign
+                            Paid Promotion Campaign
                         </div>
                     </div>
                 </div>
@@ -128,8 +145,36 @@
                 </div>
 
                 <div class="ninth-text">
-                    <p>I'm a paragraph. Click here to add your own text and edit me. <br>
-                    It’s easy. Just click “Edit Text” or double click me to add your own content <br> and make changes to the font. </p>
+                    <p> I'm a paragraph. Click here to add your own text and edit me. <br>
+                        It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-gallery-1">
+            <div class="row" >
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <img src="/Images/1.jpg" alt="" width="100%">
+                </div>
+    
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <img src="/Images/2.jpg" alt="" width="100%">
+                </div>
+    
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <img src="/Images/3.jpg" alt="" width="100%">
+                </div>
+    
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <img src="/Images/4.jpg" alt="" width="100%">
+                </div>
+    
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <img src="/Images/5.jpg" alt="" width="100%">
+                </div>
+    
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <img src="/Images/6.jpg" alt="" width="100%">
                 </div>
             </div>
         </div>
@@ -137,33 +182,7 @@
     </div>
 
 
-    <div class="section-gallery-1">
-        <div class="row" >
-            <div class="col-xl-4 col-lg-6 col-12">
-                <img src="/Images/1.jpg" alt="" width="100%">
-            </div>
-
-            <div class="col-xl-4 col-lg-6 col-12">
-                <img src="/Images/2.jpg" alt="" width="100%">
-            </div>
-
-            <div class="col-xl-4 col-lg-6 col-12">
-                <img src="/Images/3.jpg" alt="" width="100%">
-            </div>
-
-            <div class="col-xl-4 col-lg-6 col-12">
-                <img src="/Images/4.jpg" alt="" width="100%">
-            </div>
-
-            <div class="col-xl-4 col-lg-6 col-12">
-                <img src="/Images/5.jpg" alt="" width="100%">
-            </div>
-
-            <div class="col-xl-4 col-lg-6 col-12">
-                <img src="/Images/6.jpg" alt="" width="100%">
-            </div>
-        </div>
-    </div>
+    
 
 
     <!-- Fifth Pageeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee   -->
@@ -176,13 +195,15 @@
                 </div>
 
                 <div class="eleventh-text">
-                    <p>We partner with diverse clients, from startups to global brands. Our tailored social media strategies boost online presence and achieve marketing goals. We build lasting relationships and deliver measurable results.</p>
+                    <p>We partner with diverse clients, from startups to global brands. Our tailored social media strategies boost online presence and achieve marketing goals. We build lasting relationships <br> and deliver measurable results.</p>
+                </div>
+
+                <div class="section-gallery-2">
+                    <img src="/Images/fifth-image.png" alt="">
                 </div>
             </div>
 
-            <div class="section-gallery-2">
-                <img src="/Images/fifth-image.png" alt="">
-            </div>
+            
         </div>
     </div>
 
@@ -205,7 +226,7 @@
             </div>
         </div>
 
-        <div class="row section-gallery-3">
+        <div class="section-gallery-3 row">
             <div class="col-xl-3 col-lg-6 col-12">
                 <img src="/Images/6-1.jpg" alt="">
             </div>
@@ -318,12 +339,12 @@
         <footer class="container-lg">
             <div class="footer-content">
                 <div class="row">
-                    <div class="col-lg-6 nineteenth-text">
+                    <div class="col-sm-6 nineteenth-text">
                         © 2035 by SociaLight. <br> 
                         Powered and secured by <u>Wix</u>
                     </div>
     
-                    <div class="col-lg-6">
+                    <div class="col-sm-6">
                         <div class="twentieth-text">
                             ​Be a SociaLight and  Follow Us:
                         </div>
@@ -340,6 +361,36 @@
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     <!-- <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'none'
+        }
+        
+     </script> -->
 
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.remove('hide');
+            sidebar.classList.add('show');
+            sidebar.style.display = 'flex'; 
+        }
+        
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.remove('show');
+            sidebar.classList.add('hide');
+            
+            setTimeout(() => {
+                sidebar.style.display = 'none';
+            }, 400); 
+        }
+    </script>
+        
 </body>
 </html>
